@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "dev.prangellplays.enigma.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"server": [
+
+	],
+	"client": [
+
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

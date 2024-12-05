@@ -1,0 +1,43 @@
+{
+	"schemaVersion": 1,
+	"id": "enigma",
+	"version": "${version}",
+	"name": "Enigma",
+	"description": "Monsters hide in Enigma",
+	"authors": [
+		"PrangellPlays"
+	],
+	"contributors": [
+
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "All Rights Reserved",
+	"icon": "assets/enigma/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dev.prangellplays.enigma.Enigma"
+		],
+		"client": [
+			"dev.prangellplays.enigma.EnigmaClient"
+		],
+		"fabric-datagen": [
+			"dev.prangellplays.enigma.EnigmaDataGenerator"
+		]
+	},
+	"mixins": [
+		"enigma.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
